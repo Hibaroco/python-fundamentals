@@ -154,7 +154,7 @@ logic_or()
 phrase = "What kind of phrase should I write?"
 
 
-def sentence(arg)
+def sentence(arg):
     result = arg in phrase
     print(result)
     result = arg not in phrase
@@ -168,7 +168,7 @@ sentence('should')
 # second is True because of the same capitalization.
 
 
-def sentence_1(arg)
+def sentence_1(arg):
     result = arg in phrase
     print(result)
     result = arg not in phrase
@@ -177,5 +177,41 @@ def sentence_1(arg)
 
 sentence('what')
 
+
+# 5.3
+# Arithmatic Operators: addition, subtraction, multiplication, and division
+
+
+def basic(value1, value2):
+    result = value1 + value2
+    print(result)
+    result_2 = value1 - value2
+    print(result_2)
+    result_3 = value1 * value2
+    print(result_3)
+    result_4 = value1 / value2
+    print(result_4)
+
+
+basic(15, 2)
+
+# 5.4
+# Here we have the modulus equals, exponent equals, plus equals, and minus equals.
+
+
+def math(value):
+    value %= 54
+    print(value)
+    value **= 3
+    print(value)
+    value += 65
+    print(value)
+    value -= 77
+    print(value)
+
+
+math(4)
+
 # I tried to use these comments to help out this time. Sorry about before, I just hope this made it clearer and not
-# jumbled.
+# jumbled. Hopefully it helps!
+
