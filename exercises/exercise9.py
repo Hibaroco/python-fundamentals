@@ -174,6 +174,7 @@ print(f'Number served: {restaurant.number_served}')
 
 # 9-5 Login Attempts
 
+
 class User:
 
     def __init__(self, first_name, last_name, address, email):
